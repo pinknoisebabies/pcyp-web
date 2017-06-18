@@ -1,0 +1,20 @@
+{
+  "name": "pcyp-web",
+  "version": "0.1.0",
+  "main": "index.js",
+  "repository": "git@github.com:pinknoisebabies/pcyp-web.git",
+  "author": "pinknoisebabies <github@kick-their-ass.co.uk>",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^#.#.#",
+    "eslint-config-airbnb-base": "^11.2.0",
+    "eslint-plugin-import": "^2.3.0"
+  },
+  "dependencies": {
+    "express": "^4.15.3",
+    "sync-request": "^4.1.0"
+  },
+  "scripts": {
+    "start": "node index"
+  }
+}
