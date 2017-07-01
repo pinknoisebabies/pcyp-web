@@ -1,20 +1,24 @@
 {
   "name": "pcyp-web",
   "version": "0.1.0",
-  "main": "index.js",
-  "repository": "git@github.com:pinknoisebabies/pcyp-web.git",
-  "author": "pinknoisebabies <github@kick-their-ass.co.uk>",
-  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
   "devDependencies": {
     "eslint": "^#.#.#",
     "eslint-config-airbnb-base": "^11.2.0",
     "eslint-plugin-import": "^2.3.0"
   },
   "dependencies": {
-    "express": "^4.15.3",
+    "body-parser": "~1.17.1",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.3",
+    "express": "~4.15.2",
+    "jade": "~1.11.0",
+    "morgan": "~1.8.1",
+    "redis": "^2.7.1",
+    "serve-favicon": "~2.4.2",
     "sync-request": "^4.1.0"
-  },
-  "scripts": {
-    "start": "node index"
   }
 }
